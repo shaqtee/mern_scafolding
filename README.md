@@ -32,3 +32,11 @@ File open `Ctrl-O` [ Upload Files ] , lalu `import`
   `/mern_scafolding/api/`
 - ReactJS directory :
   `/mern_scafolding/client/`
+
+<br><hr><br>
+
+## Sekarang kamu bisa [sawerin](https://saweria.co/adisakti) 😉
+
+<br>
+
+![saweria](https://i.ibb.co/K6TQDRY/saweria2.png)
