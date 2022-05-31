@@ -67,9 +67,9 @@ const Home = (props) => {
       {/* Navbar */}
       <div className="navbar dark:bg-slate-800 rounded-b-lg">
         <div className="navbar-start">
-          <a className="btn btn-ghost normal-case text-xl text-error">
-            daisyUI
-            <span onClick={() => console.log("test")}>®</span>
+          <a className="MS_customClass text-2xl">
+            MERN Scafolding
+            <span onClick={() => navigate("/testing")}>®</span>
           </a>
         </div>
 
@@ -106,26 +106,31 @@ const Home = (props) => {
         </pre>
         <pre data-prefix="3">
           <code>
-            <span className="text-green-500">✔</span> ready redux
+            <span className="text-green-500">✔</span> ready nodemailer
           </code>
         </pre>
         <pre data-prefix="4">
           <code>
-            <span className="text-green-500">✔</span> ready axios
+            <span className="text-green-500">✔</span> ready redux
           </code>
         </pre>
         <pre data-prefix="5">
           <code>
-            <span className="text-green-500">✔</span> ready react-router-dom
+            <span className="text-green-500">✔</span> ready axios
           </code>
         </pre>
         <pre data-prefix="6">
+          <code>
+            <span className="text-green-500">✔</span> ready react-router-dom
+          </code>
+        </pre>
+        <pre data-prefix="7">
           <code>
             <span className="text-green-500">✔</span> ready package.json (proxy
             8080)
           </code>
         </pre>
-        <pre data-prefix="7">
+        <pre data-prefix="8">
           <code>
             <span className="text-green-500">✔</span> ready tailwind.config.js
             (theme)

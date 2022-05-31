@@ -5,6 +5,7 @@ import store from "./redux/store";
 import Home from "./components/public.js";
 import Member from "./components/home_member.js";
 import Admin from "./components/home_admin.js";
+/* Test Import */
 
 const App = (props) => {
   return (
@@ -14,6 +15,7 @@ const App = (props) => {
           <Route path="/" element={<Home />} />
           <Route path="/member" element={<Member />} />
           <Route path="/admin" element={<Admin />} />
+          {/* Test Route */}
         </Routes>
       </BrowserRouter>
     </Provider>

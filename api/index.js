@@ -6,6 +6,7 @@ import authRoute from "./routes/auth.js";
 import hotelsRoute from "./routes/hotels.js";
 import usersRoute from "./routes/users.js";
 import roomsRoute from "./routes/rooms.js";
+import mailRoute from "./routes/mail.js";
 
 const app = express();
 dotenv.config();
@@ -33,6 +34,7 @@ app.use("/api/auth", authRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/users", usersRoute);
 app.use("/api/rooms", roomsRoute);
+app.use("/api/mail", mailRoute);
 
 //middleware
 app.use((err, req, res, next) => {

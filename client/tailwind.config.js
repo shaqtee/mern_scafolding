@@ -26,4 +26,11 @@ module.exports = {
       },
     ],
   },
+  theme: {
+    extend: {
+      spacing: {
+        13: "3.5rem",
+      },
+    },
+  },
 };

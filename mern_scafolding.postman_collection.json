@@ -92,7 +92,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8800/api/hotels/find/",
+							"raw": "localhost:8800/api/hotels/",
 							"host": [
 								"localhost"
 							],
@@ -100,7 +100,6 @@
 							"path": [
 								"api",
 								"hotels",
-								"find",
 								""
 							]
 						}
@@ -157,7 +156,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"abdulbadi\",\r\n    \"email\": \"adi.sakti@live.com\",\r\n    \"password\": \"12qwas\"\r\n}",
+							"raw": "{\r\n    \"username\": \"abc\",\r\n    \"email\": \"abc@abc.abc\",\r\n    \"password\": \"12qwas\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -438,6 +437,40 @@
 					"request": {
 						"method": "GET",
 						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "mail",
+			"item": [
+				{
+					"name": "send",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"to\":\"destination@email.com\",\r\n    \"subject\":\"Judul\",\r\n    \"text\":\"Hello World\",\r\n    \"html\":\"<b>This is from MERN Scafolding</b>\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/api/mail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"api",
+								"mail"
+							]
+						}
 					},
 					"response": []
 				}
